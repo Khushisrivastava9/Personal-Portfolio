@@ -315,9 +315,26 @@ p,span{
 }
 #skills{
     padding-bottom: 100px;
-}
-#skills .heading-wrapper{
+}#skills .heading-wrapper{
     padding-top: 50px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+.progress-item {
+    width: 100%; 
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.progress-item .text {
+    margin-bottom: 8px; 
 }
 .progress-item .progress-bar{
     width: 35rem;
